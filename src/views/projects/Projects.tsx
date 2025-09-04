@@ -17,7 +17,7 @@ interface ItemType{
     ready?: boolean
 }
 
-const items = [
+const items : ItemType[] = [
     {
         img: ipromDocs,
         title: "iPROM Documentation",
