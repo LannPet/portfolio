@@ -1,16 +1,16 @@
 
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
-import adApprove from "../../../assets/projects/dzog/adApprove.webp";
-import adApproveMobile from "../../../assets/projects/dzog/adApprove_mobile.webp";
-import adPreview from "../../../assets/projects/dzog/adPreview.webp";
-import adPreviewMobile from "../../../assets/projects/dzog/adPreview_mobile.webp";
-import colorModes from "../../../assets/projects/dzog/colorModes.webp";
-import colorModesMobile from "../../../assets/projects/dzog/colorModes_mobile.webp";
-import img1 from "../../../assets/projects/dzog/img1.webp";
-import img1Mobile from "../../../assets/projects/dzog/img1_mobile.webp";
-import multiUpload from "../../../assets/projects/dzog/multiUpload.webp";
-import singleUplod from "../../../assets/projects/dzog/singleUpload.webp";
+import adApprove from "../../../assets/projects/dzog/adApprove.avif";
+import adApproveMobile from "../../../assets/projects/dzog/adApprove_mobile.avif";
+import adPreview from "../../../assets/projects/dzog/adPreview.avif";
+import adPreviewMobile from "../../../assets/projects/dzog/adPreview_mobile.avif";
+import colorModes from "../../../assets/projects/dzog/colorModes.avif";
+import colorModesMobile from "../../../assets/projects/dzog/colorModes_mobile.avif";
+import img1 from "../../../assets/projects/dzog/img1.avif";
+import img1Mobile from "../../../assets/projects/dzog/img1_mobile.avif";
+import multiUpload from "../../../assets/projects/dzog/multiUpload.avif";
+import singleUplod from "../../../assets/projects/dzog/singleUpload.avif";
 
 
 

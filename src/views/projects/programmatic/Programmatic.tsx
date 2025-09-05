@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import img1 from "../../../assets/projects/programmatic/img1.webp";
-import img2 from "../../../assets/projects/programmatic/img2.webp";
-import img3 from "../../../assets/projects/programmatic/img3.webp";
-import img4 from "../../../assets/projects/programmatic/img4.webp";
-import img5 from "../../../assets/projects/programmatic/img5.webp";
-import old from "../../../assets/projects/programmatic/old_img.webp";
+import img2 from "../../../assets/projects/programmatic/img2.avif";
+import img3 from "../../../assets/projects/programmatic/img3.avif";
+import img4 from "../../../assets/projects/programmatic/img4.avif";
+import img5 from "../../../assets/projects/programmatic/img5.avif";
+import old from "../../../assets/projects/programmatic/old_img.avif";
 import video from "../../../assets/projects/programmatic/video.mov";
 
 export default function Programmatic(){

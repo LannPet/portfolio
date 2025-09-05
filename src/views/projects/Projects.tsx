@@ -1,7 +1,7 @@
-import ipromDocs from "../../assets/projects/iprom_docs.webp";
-import ipromCentral from "../../assets/projects/iprom_central.webp";
-import ipromPreviewPage from "../../assets/projects/preview_page.webp";
-import ipromDzog from "../../assets/projects/dzog.webp"
+import ipromDocs from "../../assets/projects/iprom_docs.avif";
+import ipromCentral from "../../assets/projects/iprom_central.avif";
+import ipromPreviewPage from "../../assets/projects/preview_page.avif";
+import ipromDzog from "../../assets/projects/dzog.avif"
 import ipromSvg from "../../assets/projects/iprom_frame.webp";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -101,8 +101,17 @@ export default function Projects(){
                                     if(i.disabled) return;
                                     navigate(i.navTo)
                                     
-                                    }} key={index} className={`relative group ${i.disabled ? "" : "cursor-pointer"} group duration-500  ease-out transform opacity-0 animate-fade-in`}>
-                                    <img src={i.img} alt="iProm Docs" className={`w-full ${!i.ready && "opacity-10"} group-hover:scale-[98%] transition-all duration-300`} loading="lazy"/>
+                                    }} key={index} className={`relative group ${i.disabled ? "" : "cursor-pointer"} group duration-500  ease-out transform opacity-0 animate-fade-in`}
+                                    
+                                    >
+                                    <div className="aspect-square w-full overflow-hidden rounded-xl bg-transparent">
+                                        <img
+                                            src={i.img}
+                                            alt={i.title}
+                                            loading="lazy"
+                                            className={`w-full h-full object-cover ${!i.ready && "opacity-10"} group-hover:scale-[98%] rounded-xl transition-all duration-300`}
+                                        />
+                                    </div>
                                     <div className={`absolute inset-0 font-poppins ${i.disabled ? "hidden" : "group-hover:bg-[rgb(255,255,255,0.8)]" } bg-[rgb(255,255,255,0)] transition-all duration-200  text-3xl overflow-hidden`}>
                                         <div className="flex text-center justify-center flex-col w-full h-full translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out"> 
                                             <p className="group-hover:opacity-100 opacity-0 transition-all duration-200">{i.title}</p>

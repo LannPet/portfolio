@@ -1,8 +1,8 @@
 
 import { useEffect, useState } from "react";
-import img1 from "../../../assets/projects/previewPage/previewP_img1.webp";
-import img2 from "../../../assets/projects/previewPage/previewP_img1_desktop.webp";
-import img3 from "../../../assets/projects/previewPage/lang_select.webp";
+import img1 from "../../../assets/projects/previewPage/previewP_img1.avif";
+import img2 from "../../../assets/projects/previewPage/previewP_img1_desktop.avif";
+import img3 from "../../../assets/projects/previewPage/lang_select.avif";
 import { ArrowRight } from "lucide-react";
 
 
