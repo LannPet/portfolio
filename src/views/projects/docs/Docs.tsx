@@ -71,18 +71,26 @@ export default function Docs(){
            
                 <div className="flex flex-col justify-center items-center ">
                     <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        src={docsImg1}
-                        className="rounded-2xl w-full h-full"
-                        alt=""
-                        />
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        className="rounded-2xl w-full h-full"
-                        src={docsImg1Desktop}
-                        alt=""
-                        />
+                        <div className="aspect-[1667/1250]">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            src={docsImg1}
+                            width={1667}
+                            height={1250}
+                            className="rounded-2xl w-full h-full"
+                            alt=""
+                            />
+                        </div>
+                        <div className="aspect-[1667/1250]">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            width={1667}
+                            height={1250}
+                            className="rounded-2xl w-full h-full"
+                            src={docsImg1Desktop}
+                            alt=""
+                            />
+                        </div>
                     </div>
                     <p className="font-poppins mt-10 mb-20 xl:text-xl text-lg font-light leading-relaxed">
                     The Specifications page features a straightforward navigation bar and a
@@ -93,12 +101,17 @@ export default function Docs(){
                 </div>
 
                 <div className="flex flex-col xl:text-xl text-lg font-light">
-                    <img
-                    style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                    src={docsImg2}
-                    className="rounded-2xl"
-                    alt=""
-                    />
+                    <div className="aspect-[4096/3072]">
+                        <img
+                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                        src={docsImg2}
+                        width={4096}
+                        height={3072}
+                        className="rounded-2xl"
+                        alt=""
+                        />
+                    </div>
+                
                     <p className="font-poppins mt-10 mb-5 leading-relaxed">
                     The Format Presentation showcases visual examples of iPROM’s most
                     popular dynamic ad formats, including iPROM AdBreak, iPROM PagePeel,
@@ -112,18 +125,27 @@ export default function Docs(){
 
                 <div className="flex flex-col">
                     <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        src={docsImg3Desktop}
-                        className="rounded-2xl"
-                        alt=""
-                        />
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        src={docsImg3}
-                        className="rounded-2xl"
-                        alt=""
-                        />     
+                        <div className="aspect-[3308x5194]">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            src={docsImg3Desktop}
+                            className="rounded-2xl"
+                            width={3308}
+                            height={5194}
+                            alt=""
+                            />
+                        </div>
+                         <div className="aspect-[3308x3782]">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            src={docsImg3}
+                            className="rounded-2xl"
+                            width={3308}
+                            height={3782}
+                            alt=""
+                            />    
+                        </div>
+                       
                     </div>
                     <p className="font-poppins mt-10 mb-20 xl:text-xl text-lg font-light leading-relaxed">
                     There is also a Gallery page showcasing iPROM’s previous campaign

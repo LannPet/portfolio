@@ -73,34 +73,52 @@ export default function Dzog(){
 
 
                 <div className="flex flex-col xl:text-xl text-lg font-light mb-5">
-                    <img
-                    style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                    src={img1}
-                    className="rounded-2xl md:block hidden"
-                    alt=""
-                    />
-                    <img
-                    style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                    src={img1Mobile}
-                    className="rounded-2xl md:hidden block"
-                    alt=""
-                    />
+                    <div className="aspect-[8937/3707] md:block hidden">
+                        <img
+                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                        src={img1}
+                        width={8937}
+                        height={3707}
+                        className="rounded-2xl md:block hidden"
+                        alt=""
+                        />
+                    </div>
+                    <div className="aspect-[4164/5787] md:hidden block">
+                        <img
+                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                        src={img1Mobile}
+                        width={4164}
+                        height={5787}
+                        className="rounded-2xl md:hidden block"
+                        alt=""
+                        />
+                    </div>
+                    
                 </div>
            
                 <div className="flex flex-col justify-center items-center ">
                     <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        src={singleUplod}
-                        className="rounded-2xl w-full h-full"
-                        alt=""
-                        />
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        className="rounded-2xl w-full h-full"
-                        src={multiUpload}
-                        alt=""
-                        />
+                        <div className="aspect-[4399/7814]">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            src={singleUplod}
+                            width={4399}
+                            height={7814}
+                            className="rounded-2xl w-full h-full"
+                            alt=""
+                            />
+                        </div>
+                        <div className="aspect-[4399/7814]">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            className="rounded-2xl w-full h-full"
+                            width={4399}
+                            height={7814}
+                            src={multiUpload}
+                            alt=""
+                            />
+                        </div>
+                        
                     </div>
                     <p className="font-poppins mt-10 mb-20 xl:text-xl text-lg font-light leading-relaxed">
                         iPROM DZOG lets you single and bulk upload ad creatives for faster campaign setup.
@@ -110,31 +128,47 @@ export default function Dzog(){
 
                 <div className="flex flex-col justify-center items-center ">
                     <div className="grid grid-cols-1 gap-6 xl:grid-cols-1">
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        src={adApprove}
-                        className="rounded-2xl w-full h-full md:block hidden"
-                        alt=""
-                        />
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        src={adApproveMobile}
-                        className="rounded-2xl w-full h-full md:hidden block"
-                        alt=""
-                        />
-
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        className="rounded-2xl w-full h-full md:block hidden"
-                        src={adPreview}
-                        alt=""
-                        />
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        className="rounded-2xl w-full h-full md:hidden block"
-                        src={adPreviewMobile}
-                        alt=""
-                        />
+                        <div className="aspect-[8937/3108] md:block hidden">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            src={adApprove}
+                            width={8937}
+                            height={3108}
+                            className="rounded-2xl w-full h-full md:block hidden"
+                            alt=""
+                            />
+                        </div>
+                        <div className="aspect-[4164/3436] md:hidden block">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            src={adApproveMobile}
+                            width={4164}
+                            height={3436}
+                            className="rounded-2xl w-full h-full md:hidden block"
+                            alt=""
+                            />
+                        </div>
+                    
+                        <div className="aspect-[8937/3108] md:block hidden">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            className="rounded-2xl w-full h-full md:block hidden"
+                            src={adPreview}
+                            width={8937}
+                            height={3108}
+                            alt=""
+                            />
+                        </div>
+                        <div className="aspect-[4164/3436] md:hidden block">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            className="rounded-2xl w-full h-full md:hidden block"
+                            src={adPreviewMobile}
+                            width={4164}
+                            height={3436}
+                            alt=""
+                            />
+                        </div>
                     </div>
                     <p className="font-poppins mt-10 mb-20 xl:text-xl text-lg font-light leading-relaxed">
                         Uploaded files appear in a data table, allowing quick ad previews and faster QA.
@@ -143,18 +177,27 @@ export default function Dzog(){
                 </div>
 
                 <div className="flex flex-col xl:text-xl text-lg font-light">
-                    <img
-                    style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                    src={colorModes}
-                    className="rounded-2xl md:block hidden"
-                    alt=""
-                    />
-                    <img
-                    style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                    src={colorModesMobile}
-                    className="rounded-2xl md:hidden block"
-                    alt=""
-                    />
+                    <div className="aspect-[8819/4218] md:block hidden">
+                        <img
+                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                        src={colorModes}
+                        width={8819}
+                        height={4218}
+                        className="rounded-2xl md:block hidden"
+                        alt=""
+                        />
+                    </div>
+                   <div className="aspect-[4164/3436] md:hidden block">
+                        <img
+                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                        src={colorModesMobile}
+                        width={4164}
+                        height={3436}
+                        className="rounded-2xl md:hidden block"
+                        alt=""
+                        />
+                   </div>
+                    
                     <p className="font-poppins mb-20 mt-10 leading-relaxed">
                         The platform supports both light and dark color themes.
                     </p>

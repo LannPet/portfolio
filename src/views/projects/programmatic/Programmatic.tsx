@@ -71,18 +71,27 @@ export default function Programmatic(){
            
                 <div className="flex flex-col justify-center items-center ">
                     <div className="grid grid-cols-1 gap-6 xl:grid-cols-1">
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        src={img1}
-                        className="rounded-2xl w-full h-full hidden md:block"
-                        alt=""
-                        />
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        src={img4}
-                        className="rounded-2xl w-full h-full md:hidden block"
-                        alt=""
-                        />
+                        <div className="aspect-[14201/5577] hidden md:block">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            src={img1}
+                            width={14201}
+                            height={5577}
+                            className="rounded-2xl w-full h-full hidden md:block"
+                            alt=""
+                            />
+                        </div>
+                        <div className="aspect-[6792/5577] md:hidden block">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            src={img4}
+                            width={6792}
+                            height={5577}
+                            className="rounded-2xl w-full h-full md:hidden block"
+                            alt=""
+                            />
+                        </div>
+                       
                     </div>
                     <p className="font-poppins mt-10 mb-20 xl:text-xl text-lg font-light leading-relaxed">
                         The main dashboard provides a clear overview of how an owner’s websites are performing within the programmatic network. 
@@ -93,18 +102,27 @@ export default function Programmatic(){
 
                 <div className="flex flex-col">
                     <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        src={img2}
-                        className="rounded-2xl"
-                        alt=""
-                        />
-                        <img
-                        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
-                        src={img3}
-                        className="rounded-2xl"
-                        alt=""
-                        />     
+                        <div className="aspect-[6912/6240]">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            src={img2}
+                            width={6912}
+                            height={6240}
+                            className="rounded-2xl"
+                            alt=""
+                            />
+                        </div>
+                        <div className="aspect-[6912/6240]">
+                            <img
+                            style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                            src={img3}
+                            width={6912}
+                            height={6240}
+                            className="rounded-2xl"
+                            alt=""
+                            />  
+                        </div>
+                           
                     </div>
                     <p className="font-poppins mt-10 mb-20 xl:text-xl text-lg font-light leading-relaxed">
                         By adapting the platform to mobile, the platform is now much more accessible for clients and employees who need to manage campaigns or check performance on the go.
@@ -116,9 +134,11 @@ export default function Programmatic(){
                             style={{ backgroundImage: `url(${img5})` }}
                             >
                             {/* your video or other content goes here */}
-                            <div className="bg-black p-5 translate-x-5 rounded-2xl w-fit">
+                            <div className="bg-black p-5 translate-x-5 rounded-2xl w-fit aspect-[1069/4476]">
                                 <img
                                 src={old}
+                                width={1069}
+                                height={4476}
                                 className="w-full h-full rounded-bl-xl"
                                 />
                             </div>

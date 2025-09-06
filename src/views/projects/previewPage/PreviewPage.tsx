@@ -64,9 +64,11 @@ export default function Docs(){
 
             <section className="w-full max-w-[1100px] xl:px-0 px-4 flex flex-col font-light justify-center items-center mt-20 xl:mt-5 mb-20">
                 <div className="flex flex-col">
-                    <div className="">
+                    <div className="aspect-[3000/2250]">
                         <img
                         src={img1}
+                        width={3000}
+                        height={2250}
                         className="rounded-2xl"
                         alt=""
                         /> 
@@ -85,17 +87,21 @@ export default function Docs(){
                 </div>
                  <div className="flex flex-col">
                     <div className="grid xl:grid-cols-2 mb-20 gap-5">
-                        <div className="">
+                        <div className="aspect-[1282/1260]">
                             <img
                             src={img2}
                             className="rounded-2xl"
+                            width={1282}
+                            height={1260}
                             alt=""
                             /> 
                         </div>
-                        <div className="">
+                        <div className="aspect-[4944/3576]">
                             <img
                             src={img3}
                             className="rounded-2xl"
+                            width={4944}
+                            height={3576}
                             alt=""
                             /> 
                         </div>

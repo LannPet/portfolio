@@ -107,6 +107,8 @@ export default function Projects(){
                                     <div className="aspect-square w-full overflow-hidden rounded-xl bg-transparent">
                                         <img
                                             src={i.img}
+                                            width={800}
+                                            height={800}
                                             alt={i.title}
                                             loading="lazy"
                                             className={`w-full h-full object-cover ${!i.ready && "opacity-10"} group-hover:scale-[98%] rounded-xl transition-all duration-300`}

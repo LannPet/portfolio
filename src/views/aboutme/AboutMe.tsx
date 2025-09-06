@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import lanSlika from "../../assets/lan_slika.jpeg"
+import lanSlika from "../../assets/lan_slika.avif"
 import { ArrowRight } from "lucide-react";
 
 export default function AboutMe(){
@@ -26,8 +26,13 @@ export default function AboutMe(){
                         Hi, I am Lan!
                     </div>
                     <div className="flex flex-col font-light xl:px-0 px-4 xl:text-xl text-lg leading-relaxed ">
-                        <div className="w-full flex flex-col justify-center items-center mb-20">
-                            <img src={lanSlika} alt="" className="rounded-full w-[20em] shadow-md" loading="lazy" />
+                        <div className="w-full flex flex-col aspect-square justify-center items-center mb-20">
+                            <img src={lanSlika} 
+                                alt="" 
+                                width={800}
+                                height={800}
+                                className="rounded-full w-[20em] shadow-md" 
+                                loading="lazy" />
                         </div>
                         <p className="font-poppins mb-10 font-light leading-relaxed">
                            I’m a 26-year-old front-end developer from Ljubljana, Slovenia, 
