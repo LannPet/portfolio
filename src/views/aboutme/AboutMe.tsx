@@ -26,7 +26,7 @@ export default function AboutMe(){
                         Hi, I am Lan!
                     </div>
                     <div className="flex flex-col font-light xl:px-0 px-4 xl:text-xl text-lg leading-relaxed ">
-                        <div className="w-full flex flex-col aspect-[800/200]  justify-center items-center mb-20">
+                        <div className="w-full flex flex-col aspect-[800/300]  justify-center items-center mb-20">
                             <img src={lanSlika} 
                                 alt="" 
                                 className="rounded-full w-[20em] shadow-md" 
@@ -114,6 +114,26 @@ export default function AboutMe(){
                                 </div>
                                 <div className="font-medium">
                                     Python, Tia Portal
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full flex flex-col justify-start border-b-2 text-xl mb-10">
+                        <div className="font-medium font-poppins">Backend Developer</div>
+                        <div className="flex flex-col gap-1 text-base mb-2">
+                            <div>PERFORM IT d.o.o.</div>
+                            <div>
+                                Aug 2021 - Aug 2022
+                            </div>
+                            <div>
+                                Celje, Slovenia
+                            </div>
+                             <div className="flex flex-row gap-2"> 
+                                <div>
+                                    Technology used:
+                                </div>
+                                <div className="font-medium">
+                                    Python, Raspberry PI
                                 </div>
                             </div>
                         </div>
