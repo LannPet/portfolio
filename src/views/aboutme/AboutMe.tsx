@@ -26,11 +26,9 @@ export default function AboutMe(){
                         Hi, I am Lan!
                     </div>
                     <div className="flex flex-col font-light xl:px-0 px-4 xl:text-xl text-lg leading-relaxed ">
-                        <div className="w-full flex flex-col aspect-square justify-center items-center mb-20">
+                        <div className="w-full flex flex-col aspect-[800/200]  justify-center items-center mb-20">
                             <img src={lanSlika} 
                                 alt="" 
-                                width={800}
-                                height={800}
                                 className="rounded-full w-[20em] shadow-md" 
                                 loading="lazy" />
                         </div>
